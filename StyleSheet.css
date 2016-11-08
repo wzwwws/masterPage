@@ -1,0 +1,273 @@
+﻿body {
+    background-image: url('./Picture/BodyBackPicture.png');
+}
+
+
+#banner { position: relative; width: 2100px; height: 500px; border: 1px solid #666; overflow: hidden; }
+#banner_list img { border: 0px; }
+#banner_bg { position: absolute; bottom: 0; background-color: #000; height: 30px; filter: Alpha(Opacity=30); opacity: 0.3; z-index: 1000; cursor: pointer; width: 478px; }
+#banner_info { position: absolute; bottom: 0; left: 5px; height: 22px; color: #fff; z-index: 1001; cursor: pointer }
+#banner_text { position: absolute; width: 120px; z-index: 1002; right: 3px; bottom: 3px; }
+#banner ul { position: absolute; list-style-type: none; filter: Alpha(Opacity=80); opacity: 0.8; z-index: 1002; margin: 0; padding: 0; bottom: 3px; right: 5px; }
+#banner ul li { padding: 0px 8px; float: left; display: block; color: #FFF; background: #6f4f67; cursor: pointer; border: 1px solid #333; }
+#banner ul li.on { background-color: #000; }
+#banner_list a { position: absolute; }
+
+
+
+
+.btnPretty{
+    
+}
+
+.taTotalStyle {
+    width: 2100px;
+    height: 32px;
+}
+
+.tbTopLeftBlankStyle {
+    width: 400px;
+}
+
+.tbTopMiddleBlankStyle {
+    width: 500px;
+}
+.tbHeaderStyle {
+    width:2100px;
+    height:120px;
+}
+.tbListStyle {
+    width: 2100px;
+    height: 32px;
+    background-color:#808080;
+}
+.tbPictureStyle {
+    width:1500px;
+    height:500px;
+    text-align:center;
+}
+.tbMainTitleStyle {
+    width:1270px;
+    height:32px;
+    border-bottom:medium outset #808080;
+   }
+.divLeftStyle {
+    float:left;
+    margin-left:400px;
+    width:900px;
+    margin-bottom:3px;
+    margin-top:3px;
+}
+.divRightStyle {
+    float:right;
+}
+.tbNewJdList {
+    width:870px;
+    height:240px;
+     color: #ffffff;
+    font-family: 微软雅黑, 雅黑, yahei, 黑体, Arial;
+    font-size: 13px;
+}
+.tbJdMiddleBlankStyle {
+    width:30px;
+}
+.tbJdPictureStyle {
+    width:120px;
+    height:120px;
+    text-align:center;
+    border-bottom:outset;
+    border-bottom-color:#808080;
+    font-size:20px;
+    font-family: 微软雅黑, 雅黑, yahei, 黑体, Arial;
+}
+.tbLoginStyle {
+    width:300px;
+    height:312px;
+    border:outset;
+    border-color:grey;
+}
+.tbLoginchara {
+    color: #ffffff;
+    font-family: 微软雅黑, 雅黑, yahei, 黑体, Arial; 
+    font-size: 16px;
+    font-style: normal; 
+    text-align: center;
+}
+.tbQueryStyle {
+    margin: 0px;
+    padding: 0px; 
+    font-family: 微软雅黑, 雅黑, yahei, 黑体, Arial; 
+    font-size: 20px;
+    height: 40px; 
+    line-height: 60px; 
+    font-weight: 500; 
+    text-align: center; 
+    color:#ffffff;
+    font-style: normal;
+    font-variant-ligatures: normal; 
+    font-variant-caps: normal; 
+    letter-spacing: normal;
+    orphans: 2; 
+    text-indent: 0px;
+    text-transform: none; 
+    white-space: normal; 
+    widows: 2; 
+    word-spacing: 0px; 
+    -webkit-text-stroke-width: 0px;
+}
+.tbTopCharaStyle {
+    color: #ffffff;
+    font-family: 微软雅黑, 雅黑, yahei, 黑体, Arial;
+    font-size: 13px;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    orphans: 2;
+    text-align: start;
+    text-indent: 0px;
+    text-transform: none;
+    white-space: normal;
+    widows: 2;
+    word-spacing: 0px;
+    -webkit-text-stroke-width: 0px;
+    display: inline !important;
+    float: none;
+}
+
+.a {
+    color: rgb(140, 132, 123);
+    background-color: rgb(248, 248, 248);
+}
+
+a {
+    color: #FFFFFF;
+    font-family: 微软雅黑, 雅黑, yahei, 黑体, Arial;
+    text-decoration: none;
+}
+    a:link {
+        color: #FFFFFF;
+        font-family: 微软雅黑, 雅黑, yahei, 黑体, Arial;
+         text-decoration: none;
+    }
+    a:active {
+        color:#FFFFFF;
+        font-family: 微软雅黑, 雅黑, yahei, 黑体, Arial;
+        text-decoration: none;
+    }
+    a:focus {
+        color:#ff6a00;
+        font-family: 微软雅黑, 雅黑, yahei, 黑体, Arial;
+        text-decoration: none;
+    }
+    a:hover {
+        color:#ff6a00;
+        font-family: 微软雅黑, 雅黑, yahei, 黑体, Arial;
+        text-decoration: none;
+    }
+
+.tableIntruductionBlankStyle{
+    width:300px;
+    height:120px;
+    border-bottom:outset;
+    border-bottom-color:rgb(140, 132, 123);
+}
+.tbMainTileCharaStyle {
+    font-size:20px;
+    text-align:center;
+    font-family:'Microsoft YaHei',Arial;
+    color:white; 
+    height:30px;
+}
+
+.tbShowPictureCharaStyle {
+    color: #ffffff;
+    font-family: 微软雅黑, 雅黑, yahei, 黑体, Arial; 
+    font-size: 12px;
+    font-style: normal; 
+    text-align: center;
+    height:13px;
+}
+.tbShowPictureStyle {
+    height:79px;
+    width:287px;
+    text-align:center;
+}
+.tbInfoStyle {
+    width:410px;
+    height:120px;
+    border-bottom:outset;
+    border-bottom-color:#808080;
+}
+.divLeft2Style {
+    float:left;
+    margin-left:400px;
+    width:900px;
+    margin-bottom:3px;
+    margin-top:3px;
+}
+.divLeftStyle3{
+    float: left;
+    margin-left: 400px;
+    width: 900px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    border-bottom: outset;
+}
+.ListTitleStyle{
+    width:410px;
+     color: #ffffff;
+    font-family: 微软雅黑, 雅黑, yahei, 黑体, Arial; 
+    font-size: 20px;
+    font-style: normal; 
+}
+.ListCharaStyle {
+    margin-top:4px;
+    color: #ffffff;
+    font-family: 微软雅黑, 雅黑, yahei, 黑体, Arial; 
+    font-size: 13px;
+    font-style: normal;
+    height:12px;
+}
+.tbResultPhotoTitleStyle {
+    width:153px;
+    color: #ffffff;
+    font-family: 微软雅黑, 雅黑, yahei, 黑体, Arial; 
+    font-size: 20px;
+}
+.tbResultPhotoStyle {
+    width:153px;
+    color: #ffffff;
+    font-family: 微软雅黑, 雅黑, yahei, 黑体, Arial; 
+    font-size: 12px;
+}
+.tbResultPhotoPictureStyle {
+    width:100px;
+    height:100px;
+}
+.tbEndStyle {
+    height:120px;
+    width:2100px;
+    text-align:center;
+    font-size:20px;
+    font-family:'Microsoft YaHei',Arial;
+    color:#ffffff;
+}
+.tbEndBlankStyle {
+    height:120px;
+    width:2100px;
+    text-align:center;
+    font-size:20px;
+    font-family:'Microsoft YaHei',Arial;
+    color:#ffffff;
+    background-color:rgb(140, 132, 123);
+}
+.tbNewsStyle {
+    width:1700px;
+    height:500px;
+    font-size:20px;
+    font-family:'Microsoft YaHei',Arial;
+    color:#ffffff;
+}
+
